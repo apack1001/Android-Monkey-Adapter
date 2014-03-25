@@ -10,6 +10,24 @@ Introduction
 
 Usage
 --------------------
+Usage of Android Monkey Adapter runner
+``` sh
+usage: java -jar jarfile [-options/ --options]...
+            
+ -d,--device-id <arg>         the id list of the devices which is need to
+                              run monkey test
+ -h,--help                    Output help information!
+ -n,--pkg-name <arg>          package name of this appliacation
+ -p,--pkg-path <arg>          point to an Android application path in the
+                              storage
+ -r,--user-name <arg>         user name of this job owner
+ -s,--single-duration <arg>   expected one monkey job duration (hour)
+ -t,--series-duration <arg>   expected total monkey jobs duration (hour)
+ -u,--unlock-cmd-path <arg>   point to an unlock script path which must be
+                              standalone executable
+ -v,--pkg-version <arg>       version of this application
+
+```
 Usage of Android Monkey Adapter analyzer
 ``` sh
 usage: java -jar jarfile [-options/ --options]...
@@ -28,22 +46,6 @@ options are as below:
  -t,--traces-log-file-name <arg>      File name of traces log.
  -w,--workspaces <w>                  Workspace of monkey running
                                       directoy.
-```
-Usage of Android Monkey Adapter runner
---------------------
-``` sh
-Usage: java -jar mra.jar -options [args...]
-
-   --device-id <ids...>                 the id list of the devices which is need
- to run monkey test
-   --single-duration <duration>         expected one monkey job duration (hour)
-   --series-duration <duration>         expected total monkey jobs duration (hou
-r)
-   --pkg-path <package-path>            package path
-   --pkg-name <package-name>            package name
-   --pkg-version <package-version>      package version
-   --unlock-cmd-path <unlock script>    point to an unlock script path which mus
-t be standalone executable
 ```
 
 example
