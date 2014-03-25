@@ -2,12 +2,12 @@ AndroidMonkeyAdapter
 ====================
 Introduction
 --------------------
-
+``` sh
   1. Install Android application, run Monkey testing job, analyze and classify crash automatically
   2. HTML-format report supported
   3. Multiple platform supported(Windows, Mac, Linux)
   4. Jenkins platform supported 
-  
+```
 
 Usage
 --------------------
