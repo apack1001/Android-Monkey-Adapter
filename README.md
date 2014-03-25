@@ -3,16 +3,15 @@ AndroidMonkeyAdapter
 Introduction
 --------------------
 
-  1. Install Android application & Run Monkey testing job and analyzing and 
-     classify crash automatically
-  2. Generate HTML-format report which could be send via email
+  1. Install Android application, run Monkey testing job, analyze and classify crash automatically
+  2. HTML-format report supported
   3. Multiple platform supported(Windows, Mac, Linux)
   4. Jenkins platform supported 
   
 
 Usage
 --------------------
-Usage of Android Monkey Adapter Analyzer:
+Usage of Android Monkey Adapter analyzer
 ``` sh
 usage: java -jar jarfile [-options/ --options]...
 
@@ -31,7 +30,7 @@ options are as below:
  -w,--workspaces <w>                  Workspace of monkey running
                                       directoy.
 ```
-Usage of Android Monkey Adapter Runner:
+Usage of Android Monkey Adapter runner
 --------------------
 ``` sh
 Usage: java -jar mra.jar -options [args...]
@@ -48,7 +47,7 @@ r)
 t be standalone executable
 ```
 
-example:
+example
 ---------------------
 ``` sh
 java -jar monkey-adapter-runner.jar --device-id 45071c540c04197 --user-name xxxxxx --pkg-path ./example.apk --pkg-name com.example --pkg-version 3.0 --single-duration 8 --series-duration 8
