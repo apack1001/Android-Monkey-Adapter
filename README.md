@@ -1,6 +1,8 @@
 AndroidMonkeyAdapter
 ====================
-I.   Introduction
+Introduction
+--------------------
+
   1. Install Android application & Run Monkey testing job and analyzing and 
      classify crash automatically
   2. Generate HTML-format report which could be send via email
@@ -8,10 +10,10 @@ I.   Introduction
   4. Jenkins platform supported 
   
 
-II.  Usage of this two jarfile
-
+Usage
+--------------------
 Usage of Android Monkey Adapter Analyzer:
------------------------------------------------------------------------
+``` sh
 usage: java -jar jarfile [-options/ --options]...
 
 options are as below:
@@ -28,9 +30,10 @@ options are as below:
  -t,--traces-log-file-name <arg>      File name of traces log.
  -w,--workspaces <w>                  Workspace of monkey running
                                       directoy.
-
+```
 Usage of Android Monkey Adapter Runner:
------------------------------------------------------------------------
+--------------------
+``` sh
 Usage: java -jar mra.jar -options [args...]
 
    --device-id <ids...>                 the id list of the devices which is need
@@ -43,8 +46,11 @@ r)
    --pkg-version <package-version>      package version
    --unlock-cmd-path <unlock script>    point to an unlock script path which mus
 t be standalone executable
+```
 
-
-example:£º
-java -jar monkey-adapter-runner.jar --device-id 45071c540c04197 --user-name xxxxxx --pkg-path ./baidumusic.apk --pkg-name com.example --pkg-version 3.0 --single-duration 8 --series-duration 16
+example:
+---------------------
+``` sh
+java -jar monkey-adapter-runner.jar --device-id 45071c540c04197 --user-name xxxxxx --pkg-path ./example.apk --pkg-name com.example --pkg-version 3.0 --single-duration 8 --series-duration 8
 java -jar monkey-adapter-analyzer.jar --workspaces ./logs/ --monkey-log-file-name monkey_log.txt --logcat-log-file-name logcat_log.txt --traces-log-file-name traces_log.txt --bugreport-log-file-name bugreport_log.txt --properties-file-name properties.txt --duration 8 --package-name com.example
+```
