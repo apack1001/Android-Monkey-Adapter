@@ -1,0 +1,800 @@
+03-31 19:21:07.696    61    63 D dalvikvm: GC_CONCURRENT freed 849K, 46% free 4439K/8135K, external 1488K/1828K, paused 4ms+5ms
+03-31 19:21:08.156    61    63 D dalvikvm: GC_CONCURRENT freed 852K, 46% free 4440K/8135K, external 1488K/1828K, paused 4ms+3ms
+03-31 19:21:08.706    61    63 D dalvikvm: GC_CONCURRENT freed 853K, 46% free 4440K/8135K, external 1488K/1828K, paused 4ms+4ms
+03-31 19:21:09.086    61   177 D dalvikvm: GC_FOR_MALLOC freed 860K, 46% free 4433K/8135K, external 1488K/1828K, paused 41ms
+03-31 19:21:09.276    61   177 D dalvikvm: GC_FOR_MALLOC freed 852K, 46% free 4432K/8135K, external 1488K/1828K, paused 47ms
+03-31 19:21:10.446   120   122 D dalvikvm: GC_CONCURRENT freed 417K, 49% free 3174K/6215K, external 716K/1038K, paused 3ms+43ms
+03-31 19:21:10.446   132   135 D dalvikvm: GC_CONCURRENT freed 426K, 51% free 2962K/6023K, external 716K/1038K, paused 3ms+16ms
+03-31 19:21:10.526    61    63 D dalvikvm: GC_CONCURRENT freed 862K, 46% free 4421K/8135K, external 1488K/1828K, paused 11ms+11ms
+03-31 19:21:11.136    61    63 D dalvikvm: GC_CONCURRENT freed 838K, 46% free 4432K/8135K, external 1488K/1828K, paused 3ms+4ms
+03-31 19:21:11.726    61    63 D dalvikvm: GC_CONCURRENT freed 851K, 46% free 4431K/8135K, external 1488K/1828K, paused 4ms+4ms
+03-31 19:21:12.456    61    63 D dalvikvm: GC_CONCURRENT freed 850K, 46% free 4432K/8135K, external 1488K/1828K, paused 3ms+5ms
+03-31 19:21:12.706    38    38 D qemud   : fdhandler_accept_event: accepting on fd 9
+03-31 19:21:12.706    38    38 D qemud   : created client 0xc038 listening on fd 13
+03-31 19:21:12.706    38    38 D qemud   : client_fd_receive: attempting registration for service 'sensors'
+03-31 19:21:12.706    38    38 D qemud   : client_fd_receive:    -> received channel id 7
+03-31 19:21:12.716    38    38 D qemud   : client_registration: registration succeeded for client 7
+03-31 19:21:12.726    38    38 D qemud   : fdhandler_event: disconnect on fd 13
+03-31 19:21:13.016    61    63 D dalvikvm: GC_CONCURRENT freed 864K, 46% free 4419K/8135K, external 1488K/1828K, paused 4ms+4ms
+03-31 19:21:13.086   568   568 I dumpstate: done
+03-31 19:22:20.266   590   590 D AndroidRuntime: 
+03-31 19:22:20.266   590   590 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:22:20.266   590   590 D AndroidRuntime: CheckJNI is ON
+03-31 19:22:20.756   590   590 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+03-31 19:22:21.926    61    67 I ActivityManager: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example/.MainActivity } from pid 590
+03-31 19:22:21.946    61   172 I ActivityManager: Start proc com.example for activity com.example/.MainActivity: pid=598 uid=10034 gids={}
+03-31 19:22:23.166   598   598 D AndroidRuntime: Shutting down VM
+03-31 19:22:23.166   598   598 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x40015560)
+03-31 19:22:23.186   598   598 E AndroidRuntime: FATAL EXCEPTION: main
+03-31 19:22:23.186   598   598 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example/com.example.MainActivity}: java.lang.NullPointerException
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:123)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:3683)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:507)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+03-31 19:22:23.186   598   598 E AndroidRuntime: Caused by: java.lang.NullPointerException
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at com.android.internal.os.LoggingPrintStream.println(LoggingPrintStream.java:298)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at com.example.MainActivity.onCreate(MainActivity.java:21)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+03-31 19:22:23.186   598   598 E AndroidRuntime: 	... 11 more
+03-31 19:22:23.196    61   172 W ActivityManager: Force-killing crashed app com.example at watcher's request
+03-31 19:22:23.196    61   172 I Process : Sending signal. PID: 598 SIG: 9
+03-31 19:22:23.206    61    68 I ActivityManager: Process com.example (pid 598) has died.
+03-31 19:22:23.456    61   172 W InputManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4076e328
+03-31 19:22:24.566   610   610 I dumpstate: begin
+03-31 19:22:24.576    61    64 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.596    61    64 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.606   107   111 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.606   107   111 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.606   120   123 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.616   120   123 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.616   132   140 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.626   132   140 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.626   137   143 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.636   137   143 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.636   166   169 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.646   166   169 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.646   181   186 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.656   181   186 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.656   198   201 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.656   198   201 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.656   207   210 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.666   207   210 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.666   215   218 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.707   215   218 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.707   223   226 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.716   223   226 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.716   231   234 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.716   231   234 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.716   243   247 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.726   243   247 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.726   263   267 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.736   263   267 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.736   298   301 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.736   298   301 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:24.736   310   313 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:22:24.746   310   313 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:22:31.566    29    50 D VoldCmdListener: asec list
+03-31 19:22:36.346    61    63 D dalvikvm: GC_CONCURRENT freed 862K, 46% free 4404K/8135K, external 1488K/1828K, paused 4ms+18ms
+03-31 19:22:36.996    61    63 D dalvikvm: GC_CONCURRENT freed 854K, 46% free 4395K/8135K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:22:37.786    61    63 D dalvikvm: GC_CONCURRENT freed 799K, 46% free 4395K/8135K, external 1316K/1828K, paused 5ms+5ms
+03-31 19:22:38.796    61    63 D dalvikvm: GC_CONCURRENT freed 799K, 46% free 4394K/8135K, external 1316K/1828K, paused 5ms+5ms
+03-31 19:22:39.095    61    61 D dalvikvm: GC_FOR_MALLOC freed 777K, 46% free 4416K/8135K, external 1316K/1828K, paused 44ms
+03-31 19:22:39.286    61    61 D dalvikvm: GC_FOR_MALLOC freed 793K, 46% free 4421K/8135K, external 1316K/1828K, paused 45ms
+03-31 19:22:40.396    61    63 D dalvikvm: GC_CONCURRENT freed 817K, 46% free 4410K/8135K, external 1316K/1828K, paused 4ms+5ms
+03-31 19:22:40.966    61    68 D dalvikvm: GC_FOR_MALLOC freed 798K, 46% free 4413K/8135K, external 1316K/1828K, paused 49ms
+03-31 19:22:41.776    61    63 D dalvikvm: GC_CONCURRENT freed 811K, 46% free 4406K/8135K, external 1316K/1828K, paused 3ms+41ms
+03-31 19:22:42.546    61    63 D dalvikvm: GC_CONCURRENT freed 801K, 46% free 4406K/8135K, external 1316K/1828K, paused 4ms+15ms
+03-31 19:22:43.096    38    38 D qemud   : fdhandler_accept_event: accepting on fd 9
+03-31 19:22:43.096    38    38 D qemud   : created client 0xc038 listening on fd 13
+03-31 19:22:43.096    38    38 D qemud   : client_fd_receive: attempting registration for service 'sensors'
+03-31 19:22:43.096    38    38 D qemud   : client_fd_receive:    -> received channel id 8
+03-31 19:22:43.106    38    38 D qemud   : client_registration: registration succeeded for client 8
+03-31 19:22:43.116    38    38 D qemud   : fdhandler_event: disconnect on fd 13
+03-31 19:22:43.316    61    63 D dalvikvm: GC_CONCURRENT freed 804K, 46% free 4404K/8135K, external 1316K/1828K, paused 3ms+4ms
+03-31 19:22:43.658   610   610 I dumpstate: done
+03-31 19:25:05.065    61   130 D SntpClient: request time failed: java.net.SocketException: Address family not supported by protocol
+03-31 19:27:46.826   636   636 D AndroidRuntime: 
+03-31 19:27:46.826   636   636 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:27:46.826   636   636 D AndroidRuntime: CheckJNI is ON
+03-31 19:27:47.186   636   636 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:27:47.246   298   305 D dalvikvm: GC_EXPLICIT freed 128K, 54% free 2549K/5511K, external 716K/1038K, paused 33ms
+03-31 19:27:47.246    61    79 W ActivityManager: No content provider found for: 
+03-31 19:27:47.376    61    79 W ActivityManager: No content provider found for: 
+03-31 19:27:47.386    61    79 D PackageParser: Scanning package: /data/app/vmdl1927452678.tmp
+03-31 19:27:47.515    61    63 D dalvikvm: GC_CONCURRENT freed 664K, 45% free 4523K/8135K, external 1316K/1828K, paused 5ms+3ms
+03-31 19:27:47.686    61    63 D dalvikvm: GC_CONCURRENT freed 465K, 42% free 4785K/8135K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:27:47.826    61    79 D dalvikvm: GC_FOR_MALLOC freed 647K, 43% free 4785K/8327K, external 1316K/1828K, paused 39ms
+03-31 19:27:47.956    61    79 D dalvikvm: GC_FOR_MALLOC freed 651K, 43% free 4788K/8327K, external 1316K/1828K, paused 38ms
+03-31 19:27:48.086    61    79 D dalvikvm: GC_FOR_MALLOC freed 650K, 43% free 4792K/8327K, external 1316K/1828K, paused 38ms
+03-31 19:27:48.262    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:27:48.262    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:27:48.316    61    79 D PackageManager: Scanning package com.example
+03-31 19:27:48.316    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-2.apk to /data/app/com.example-1.apk; Retaining data and using new
+03-31 19:27:48.316    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-1.apk
+03-31 19:27:48.416    61    63 D dalvikvm: GC_CONCURRENT freed 698K, 42% free 4872K/8327K, external 1316K/1828K, paused 5ms+7ms
+03-31 19:27:48.437    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-1.apk' ---
+03-31 19:27:49.156   645   645 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:27:49.346   645   645 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:27:49.746   645   645 D dalvikvm: DexOpt: load 202ms, verify+opt 717ms
+03-31 19:27:49.816    35    35 D installd: DexInv: --- END '/data/app/com.example-1.apk' (success) ---
+03-31 19:27:49.816    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:27:49.816    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:27:49.816    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:27:49.836    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:27:49.876    35    35 I installd: move /data/dalvik-cache/data@app@com.example-1.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:27:49.876    61    79 D PackageManager: New package installed in /data/app/com.example-1.apk
+03-31 19:27:49.936    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:27:49.986   137   137 D dalvikvm: GC_EXPLICIT freed 386K, 51% free 2932K/5959K, external 2571K/3159K, paused 43ms
+03-31 19:27:50.096    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:27:50.236   166   166 D dalvikvm: GC_EXPLICIT freed 248K, 52% free 2775K/5703K, external 716K/1038K, paused 53ms
+03-31 19:27:50.316    61    79 D dalvikvm: GC_EXPLICIT freed 724K, 47% free 4490K/8327K, external 1316K/1828K, paused 78ms
+03-31 19:27:50.337    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:27:50.346   636   636 D AndroidRuntime: Shutting down VM
+03-31 19:27:50.346   636   638 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 1ms+1ms
+03-31 19:27:50.356   636   640 D jdwp    : Got wake-up signal, bailing out of select
+03-31 19:27:50.356   636   640 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:27:50.976   651   651 D AndroidRuntime: 
+03-31 19:27:50.976   651   651 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:27:50.976   651   651 D AndroidRuntime: CheckJNI is ON
+03-31 19:27:51.356   651   651 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:27:51.456   298   308 D dalvikvm: GC_EXPLICIT freed 10K, 54% free 2549K/5511K, external 716K/1038K, paused 38ms
+03-31 19:27:51.466    61    79 W ActivityManager: No content provider found for: 
+03-31 19:27:51.666    61    79 W ActivityManager: No content provider found for: 
+03-31 19:27:51.676    61    79 D PackageParser: Scanning package: /data/app/vmdl1093735749.tmp
+03-31 19:27:51.846    61    63 D dalvikvm: GC_CONCURRENT freed 511K, 44% free 4724K/8327K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:27:52.006    61    79 D dalvikvm: GC_FOR_MALLOC freed 671K, 43% free 4782K/8327K, external 1316K/1828K, paused 41ms
+03-31 19:27:52.136    61    79 D dalvikvm: GC_FOR_MALLOC freed 660K, 43% free 4785K/8327K, external 1316K/1828K, paused 43ms
+03-31 19:27:52.276    61    79 D dalvikvm: GC_FOR_MALLOC freed 659K, 43% free 4790K/8327K, external 1316K/1828K, paused 40ms
+03-31 19:27:52.416    61    79 D dalvikvm: GC_FOR_MALLOC freed 658K, 43% free 4794K/8327K, external 1316K/1828K, paused 39ms
+03-31 19:27:52.515    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:27:52.515    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:27:52.565    61    79 D PackageManager: Scanning package com.example
+03-31 19:27:52.565    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-1.apk to /data/app/com.example-2.apk; Retaining data and using new
+03-31 19:27:52.565    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-2.apk
+03-31 19:27:52.586    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-2.apk' ---
+03-31 19:27:53.246   660   660 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:27:53.426   660   660 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:27:53.816   660   660 D dalvikvm: DexOpt: load 188ms, verify+opt 673ms
+03-31 19:27:53.876    35    35 D installd: DexInv: --- END '/data/app/com.example-2.apk' (success) ---
+03-31 19:27:53.876    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:27:53.876    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:27:53.876    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:27:53.896    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:27:53.926    35    35 I installd: move /data/dalvik-cache/data@app@com.example-2.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:27:53.926    61    79 D PackageManager: New package installed in /data/app/com.example-2.apk
+03-31 19:27:53.976    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:27:54.046    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:27:54.206    61    79 D dalvikvm: GC_EXPLICIT freed 482K, 42% free 4884K/8327K, external 1316K/1828K, paused 62ms
+03-31 19:27:54.226    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:27:54.236   651   651 D AndroidRuntime: Shutting down VM
+03-31 19:27:54.236   651   653 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 0ms+0ms
+03-31 19:27:54.246   651   655 D jdwp    : Got wake-up signal, bailing out of select
+03-31 19:27:54.246   651   655 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:27:59.166   223   223 D dalvikvm: GC_EXPLICIT freed 158K, 55% free 2601K/5703K, external 716K/1038K, paused 34ms
+03-31 19:28:05.046   298   298 D dalvikvm: GC_EXPLICIT freed 7K, 54% free 2547K/5511K, external 716K/1038K, paused 31ms
+03-31 19:28:10.076   310   310 D dalvikvm: GC_EXPLICIT freed 128K, 54% free 2542K/5511K, external 716K/1038K, paused 51ms
+03-31 19:28:54.986   666   666 D AndroidRuntime: 
+03-31 19:28:54.986   666   666 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:28:54.986   666   666 D AndroidRuntime: CheckJNI is ON
+03-31 19:28:55.356   666   666 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+03-31 19:28:56.086    61   177 I ActivityManager: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example/.MainActivity } from pid 666
+03-31 19:28:56.156    61   176 I ActivityManager: Start proc com.example for activity com.example/.MainActivity: pid=675 uid=10034 gids={}
+03-31 19:28:57.086   675   675 D AndroidRuntime: Shutting down VM
+03-31 19:28:57.096   675   675 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x40015560)
+03-31 19:28:57.106   675   675 E AndroidRuntime: FATAL EXCEPTION: main
+03-31 19:28:57.106   675   675 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example/com.example.MainActivity}: java.lang.NullPointerException
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:123)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:3683)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:507)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+03-31 19:28:57.106   675   675 E AndroidRuntime: Caused by: java.lang.NullPointerException
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at com.android.internal.os.LoggingPrintStream.println(LoggingPrintStream.java:298)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at com.example.MainActivity.onCreate(MainActivity.java:21)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+03-31 19:28:57.106   675   675 E AndroidRuntime: 	... 11 more
+03-31 19:28:57.116    61   176 W ActivityManager: Force-killing crashed app com.example at watcher's request
+03-31 19:28:57.116    61   176 I Process : Sending signal. PID: 675 SIG: 9
+03-31 19:28:57.125    61   172 I ActivityManager: Process com.example (pid 675) has died.
+03-31 19:28:57.246    61    61 W InputManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40697b10
+03-31 19:28:58.396   687   687 I dumpstate: begin
+03-31 19:28:58.406    61    64 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.435    61    64 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.435   107   111 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.435   107   111 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.435   120   123 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.446   120   123 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.446   132   140 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.456   132   140 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.456   137   143 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.466   137   143 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.466   166   169 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.466   166   169 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.466   181   186 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.476   181   186 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.476   198   201 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.476   198   201 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.476   207   210 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.486   207   210 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.486   215   218 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.486   215   218 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.486   223   226 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.496   223   226 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.496   231   234 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.496   231   234 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.496   243   247 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.506   243   247 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.506   263   267 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.506   263   267 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.506   298   301 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.516   298   301 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:28:58.516   310   313 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:28:58.516   310   313 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:29:04.316    29    50 D VoldCmdListener: asec list
+03-31 19:29:07.846    61    63 D dalvikvm: GC_CONCURRENT freed 1410K, 48% free 4429K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:29:08.276    61    63 D dalvikvm: GC_CONCURRENT freed 820K, 48% free 4417K/8455K, external 1316K/1828K, paused 3ms+4ms
+03-31 19:29:08.706    61    63 D dalvikvm: GC_CONCURRENT freed 805K, 48% free 4417K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:29:09.156    61    63 D dalvikvm: GC_CONCURRENT freed 804K, 48% free 4417K/8455K, external 1316K/1828K, paused 4ms+5ms
+03-31 19:29:09.716    61    63 D dalvikvm: GC_CONCURRENT freed 811K, 48% free 4410K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:29:10.216    61   176 D dalvikvm: GC_FOR_MALLOC freed 784K, 48% free 4428K/8455K, external 1316K/1828K, paused 42ms
+03-31 19:29:11.286    61    63 D dalvikvm: GC_CONCURRENT freed 819K, 48% free 4416K/8455K, external 1316K/1828K, paused 4ms+6ms
+03-31 19:29:11.875    61    63 D dalvikvm: GC_CONCURRENT freed 807K, 48% free 4413K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:29:12.436    61    63 D dalvikvm: GC_CONCURRENT freed 804K, 48% free 4412K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:29:13.136    61    63 D dalvikvm: GC_CONCURRENT freed 793K, 48% free 4423K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:29:13.306    38    38 D qemud   : fdhandler_accept_event: accepting on fd 9
+03-31 19:29:13.306    38    38 D qemud   : created client 0xc038 listening on fd 13
+03-31 19:29:13.306    38    38 D qemud   : client_fd_receive: attempting registration for service 'sensors'
+03-31 19:29:13.306    38    38 D qemud   : client_fd_receive:    -> received channel id 9
+03-31 19:29:13.316    38    38 D qemud   : client_registration: registration succeeded for client 9
+03-31 19:29:13.326    38    38 D qemud   : fdhandler_event: disconnect on fd 13
+03-31 19:29:13.616    61    63 D dalvikvm: GC_CONCURRENT freed 822K, 48% free 4407K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:29:13.795   263   266 D dalvikvm: GC_CONCURRENT freed 466K, 54% free 2708K/5831K, external 716K/1038K, paused 3181ms+3ms
+03-31 19:29:13.806   687   687 I dumpstate: done
+03-31 19:30:05.066    61   130 D SntpClient: request time failed: java.net.SocketException: Address family not supported by protocol
+03-31 19:30:21.126   707   707 D AndroidRuntime: 
+03-31 19:30:21.126   707   707 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:30:21.126   707   707 D AndroidRuntime: CheckJNI is ON
+03-31 19:30:21.586   707   707 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+03-31 19:30:22.356    61    68 I ActivityManager: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example/.MainActivity } from pid 707
+03-31 19:30:22.375    61    67 I ActivityManager: Start proc com.example for activity com.example/.MainActivity: pid=716 uid=10034 gids={}
+03-31 19:30:23.537   716   716 D AndroidRuntime: Shutting down VM
+03-31 19:30:23.537   716   716 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x40015560)
+03-31 19:30:23.566   716   716 E AndroidRuntime: FATAL EXCEPTION: main
+03-31 19:30:23.566   716   716 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example/com.example.MainActivity}: java.lang.NullPointerException
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:123)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:3683)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:507)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+03-31 19:30:23.566   716   716 E AndroidRuntime: Caused by: java.lang.NullPointerException
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at com.android.internal.os.LoggingPrintStream.println(LoggingPrintStream.java:298)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at com.example.MainActivity.onCreate(MainActivity.java:21)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+03-31 19:30:23.566   716   716 E AndroidRuntime: 	... 11 more
+03-31 19:30:23.616    61    68 W ActivityManager: Force-killing crashed app com.example at watcher's request
+03-31 19:30:23.616    61    68 I Process : Sending signal. PID: 716 SIG: 9
+03-31 19:30:23.636    61   172 I ActivityManager: Process com.example (pid 716) has died.
+03-31 19:30:23.826    61   172 W InputManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@407cb6c0
+03-31 19:30:24.486   728   728 I dumpstate: begin
+03-31 19:30:24.496    61    64 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.549    61    64 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.549   107   111 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.556   107   111 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.556   120   123 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.556   120   123 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.566   132   140 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.576   132   140 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.576   137   143 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.576   137   143 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.586   166   169 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.586   166   169 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.586   181   186 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.596   181   186 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.596   198   201 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.596   198   201 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.606   207   210 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.606   207   210 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.606   215   218 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.616   215   218 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.616   223   226 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.616   223   226 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.616   231   234 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.626   231   234 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.626   243   247 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.626   243   247 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.636   263   267 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.636   263   267 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.636   298   301 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.646   298   301 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:24.646   310   313 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:30:24.646   310   313 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:30:31.626    29    50 D VoldCmdListener: asec list
+03-31 19:30:35.346    61    63 D dalvikvm: GC_CONCURRENT freed 803K, 48% free 4406K/8455K, external 1316K/1828K, paused 4ms+5ms
+03-31 19:30:35.926    61    63 D dalvikvm: GC_CONCURRENT freed 812K, 49% free 4395K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:30:36.466    61    63 D dalvikvm: GC_CONCURRENT freed 799K, 49% free 4395K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:30:37.085    61    63 D dalvikvm: GC_CONCURRENT freed 799K, 49% free 4395K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:30:37.446    61   177 D dalvikvm: GC_FOR_MALLOC freed 782K, 48% free 4412K/8455K, external 1316K/1828K, paused 42ms
+03-31 19:30:37.626    61   177 D dalvikvm: GC_FOR_MALLOC freed 799K, 48% free 4416K/8455K, external 1316K/1828K, paused 39ms
+03-31 19:30:38.576    61    63 D dalvikvm: GC_CONCURRENT freed 805K, 48% free 4415K/8455K, external 1316K/1828K, paused 9ms+6ms
+03-31 19:30:39.346    61    67 D dalvikvm: GC_FOR_MALLOC freed 826K, 49% free 4394K/8455K, external 1316K/1828K, paused 43ms
+03-31 19:30:40.156    61    63 D dalvikvm: GC_CONCURRENT freed 801K, 49% free 4392K/8455K, external 1316K/1828K, paused 4ms+28ms
+03-31 19:30:40.836    38    38 D qemud   : fdhandler_accept_event: accepting on fd 9
+03-31 19:30:40.836    38    38 D qemud   : created client 0xc038 listening on fd 13
+03-31 19:30:40.836    38    38 D qemud   : client_fd_receive: attempting registration for service 'sensors'
+03-31 19:30:40.836    38    38 D qemud   : client_fd_receive:    -> received channel id 10
+03-31 19:30:40.846    38    38 D qemud   : client_registration: registration succeeded for client 10
+03-31 19:30:40.856    38    38 D qemud   : fdhandler_event: disconnect on fd 13
+03-31 19:30:41.025    61    63 D dalvikvm: GC_CONCURRENT freed 793K, 49% free 4395K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:30:41.346   181   183 D dalvikvm: GC_CONCURRENT freed 427K, 55% free 2612K/5703K, external 716K/1038K, paused 2ms+3ms
+03-31 19:30:41.376   728   728 I dumpstate: done
+03-31 19:31:49.116   748   748 D AndroidRuntime: 
+03-31 19:31:49.116   748   748 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:31:49.116   748   748 D AndroidRuntime: CheckJNI is ON
+03-31 19:31:49.516   748   748 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+03-31 19:31:50.266    61   172 I ActivityManager: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example/.MainActivity } from pid 748
+03-31 19:31:50.296    61   177 I ActivityManager: Start proc com.example for activity com.example/.MainActivity: pid=757 uid=10034 gids={}
+03-31 19:31:51.356   757   757 D AndroidRuntime: Shutting down VM
+03-31 19:31:51.356   757   757 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x40015560)
+03-31 19:31:51.366   757   757 E AndroidRuntime: FATAL EXCEPTION: main
+03-31 19:31:51.366   757   757 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example/com.example.MainActivity}: java.lang.NullPointerException
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:123)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:3683)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:507)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+03-31 19:31:51.366   757   757 E AndroidRuntime: Caused by: java.lang.NullPointerException
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at com.android.internal.os.LoggingPrintStream.println(LoggingPrintStream.java:298)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at com.example.MainActivity.onCreate(MainActivity.java:21)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+03-31 19:31:51.366   757   757 E AndroidRuntime: 	... 11 more
+03-31 19:31:51.376    61    68 W ActivityManager: Force-killing crashed app com.example at watcher's request
+03-31 19:31:51.376    61    68 I Process : Sending signal. PID: 757 SIG: 9
+03-31 19:31:51.396    61    61 I ActivityManager: Process com.example (pid 757) has died.
+03-31 19:31:51.515    61    68 W InputManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4078a148
+03-31 19:31:52.505   769   769 I dumpstate: begin
+03-31 19:31:52.516    61    64 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.535    61    64 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.535   107   111 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.545   107   111 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.545   120   123 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.545   120   123 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.545   132   140 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.556   132   140 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.556   137   143 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.566   137   143 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.566   166   169 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.576   166   169 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.576   181   186 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.576   181   186 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.576   198   201 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.586   198   201 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.586   207   210 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.586   207   210 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.586   215   218 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.596   215   218 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.596   223   226 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.596   223   226 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.596   231   234 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.606   231   234 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.606   243   247 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.616   243   247 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.616   263   267 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.626   263   267 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.626   298   301 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.635   298   301 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:52.635   310   313 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:31:52.635   310   313 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:31:58.896    29    50 D VoldCmdListener: asec list
+03-31 19:32:02.906    61    63 D dalvikvm: GC_CONCURRENT freed 771K, 48% free 4423K/8455K, external 1316K/1828K, paused 4ms+6ms
+03-31 19:32:03.536    61    63 D dalvikvm: GC_CONCURRENT freed 797K, 48% free 4432K/8455K, external 1316K/1828K, paused 4ms+10ms
+03-31 19:32:04.096    61    63 D dalvikvm: GC_CONCURRENT freed 826K, 48% free 4413K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:32:04.556    61    63 D dalvikvm: GC_CONCURRENT freed 803K, 48% free 4413K/8455K, external 1316K/1828K, paused 5ms+4ms
+03-31 19:32:05.036    61    63 D dalvikvm: GC_CONCURRENT freed 802K, 48% free 4414K/8455K, external 1316K/1828K, paused 17ms+4ms
+03-31 19:32:05.666    61    63 D dalvikvm: GC_CONCURRENT freed 821K, 49% free 4396K/8455K, external 1316K/1828K, paused 4ms+6ms
+03-31 19:32:06.006    61    61 D dalvikvm: GC_FOR_MALLOC freed 777K, 48% free 4418K/8455K, external 1316K/1828K, paused 43ms
+03-31 19:32:06.176    61    61 D dalvikvm: GC_FOR_MALLOC freed 801K, 48% free 4421K/8455K, external 1316K/1828K, paused 43ms
+03-31 19:32:06.536    61    61 D dalvikvm: GC_FOR_MALLOC freed 805K, 48% free 4421K/8455K, external 1316K/1828K, paused 42ms
+03-31 19:32:07.496    61    61 D dalvikvm: GC_FOR_MALLOC freed 827K, 48% free 4400K/8455K, external 1316K/1828K, paused 45ms
+03-31 19:32:08.316    61    63 D dalvikvm: GC_CONCURRENT freed 786K, 48% free 4414K/8455K, external 1316K/1828K, paused 7ms+37ms
+03-31 19:32:09.006    61    63 D dalvikvm: GC_CONCURRENT freed 794K, 48% free 4424K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:32:09.706    61    63 D dalvikvm: GC_CONCURRENT freed 816K, 48% free 4414K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:32:10.155    38    38 D qemud   : fdhandler_accept_event: accepting on fd 9
+03-31 19:32:10.155    38    38 D qemud   : created client 0xc038 listening on fd 13
+03-31 19:32:10.155    38    38 D qemud   : client_fd_receive: attempting registration for service 'sensors'
+03-31 19:32:10.155    38    38 D qemud   : client_fd_receive:    -> received channel id 11
+03-31 19:32:10.165    38    38 D qemud   : client_registration: registration succeeded for client 11
+03-31 19:32:10.175    38    38 D qemud   : fdhandler_event: disconnect on fd 13
+03-31 19:32:10.346    61    63 D dalvikvm: GC_CONCURRENT freed 815K, 48% free 4403K/8455K, external 1316K/1828K, paused 5ms+4ms
+03-31 19:32:10.704   769   769 I dumpstate: done
+03-31 19:33:18.286   789   789 D AndroidRuntime: 
+03-31 19:33:18.286   789   789 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:33:18.286   789   789 D AndroidRuntime: CheckJNI is ON
+03-31 19:33:18.745   789   789 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+03-31 19:33:19.546    61    67 I ActivityManager: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example/.MainActivity } from pid 789
+03-31 19:33:19.566    61    61 I ActivityManager: Start proc com.example for activity com.example/.MainActivity: pid=798 uid=10034 gids={}
+03-31 19:33:20.496   798   798 D AndroidRuntime: Shutting down VM
+03-31 19:33:20.496   798   798 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x40015560)
+03-31 19:33:20.506   798   798 E AndroidRuntime: FATAL EXCEPTION: main
+03-31 19:33:20.506   798   798 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example/com.example.MainActivity}: java.lang.NullPointerException
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:123)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:3683)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:507)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+03-31 19:33:20.506   798   798 E AndroidRuntime: Caused by: java.lang.NullPointerException
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at com.android.internal.os.LoggingPrintStream.println(LoggingPrintStream.java:298)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at com.example.MainActivity.onCreate(MainActivity.java:21)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+03-31 19:33:20.506   798   798 E AndroidRuntime: 	... 11 more
+03-31 19:33:20.536    61    61 W ActivityManager: Force-killing crashed app com.example at watcher's request
+03-31 19:33:20.536    61    61 I Process : Sending signal. PID: 798 SIG: 9
+03-31 19:33:20.546    61   172 I ActivityManager: Process com.example (pid 798) has died.
+03-31 19:33:20.655    61    67 W InputManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40787db0
+03-31 19:33:21.576   810   810 I dumpstate: begin
+03-31 19:33:21.586    61    64 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.616    61    64 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.616   107   111 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.616   107   111 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.616   120   123 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.625   120   123 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.625   132   140 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.635   132   140 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.635   137   143 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.645   137   143 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.645   166   169 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.645   166   169 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.655   181   186 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.655   181   186 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.655   198   201 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.665   198   201 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.665   207   210 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.665   207   210 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.665   215   218 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.677   215   218 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.677   223   226 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.677   223   226 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.677   231   234 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.686   231   234 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.686   243   247 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.686   243   247 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.686   263   267 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.696   263   267 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.696   298   301 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.696   298   301 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:21.706   310   313 I dalvikvm: threadid=4: reacting to signal 3
+03-31 19:33:21.706   310   313 I dalvikvm: Wrote stack traces to '/data/anr/traces.txt'
+03-31 19:33:27.686    29    50 D VoldCmdListener: asec list
+03-31 19:33:30.896    61    63 D dalvikvm: GC_CONCURRENT freed 784K, 48% free 4419K/8455K, external 1316K/1828K, paused 3ms+4ms
+03-31 19:33:31.366    61    63 D dalvikvm: GC_CONCURRENT freed 794K, 48% free 4430K/8455K, external 1316K/1828K, paused 4ms+5ms
+03-31 19:33:31.806    61    63 D dalvikvm: GC_CONCURRENT freed 826K, 48% free 4411K/8455K, external 1316K/1828K, paused 5ms+3ms
+03-31 19:33:32.276    61    63 D dalvikvm: GC_CONCURRENT freed 803K, 48% free 4412K/8455K, external 1316K/1828K, paused 6ms+3ms
+03-31 19:33:32.706    61    63 D dalvikvm: GC_CONCURRENT freed 802K, 48% free 4412K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:33:33.196    61    63 D dalvikvm: GC_CONCURRENT freed 828K, 49% free 4387K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:33:33.726   120   122 D dalvikvm: GC_CONCURRENT freed 554K, 51% free 3171K/6343K, external 716K/1038K, paused 3ms+13ms
+03-31 19:33:33.756    61    63 D dalvikvm: GC_CONCURRENT freed 752K, 48% free 4432K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:33:34.776    61    67 D dalvikvm: GC_FOR_MALLOC freed 832K, 48% free 4407K/8455K, external 1316K/1828K, paused 41ms
+03-31 19:33:35.325    61    67 D dalvikvm: GC_FOR_MALLOC freed 801K, 48% free 4409K/8455K, external 1316K/1828K, paused 47ms
+03-31 19:33:35.846   132   135 D dalvikvm: GC_CONCURRENT freed 443K, 52% free 2947K/6087K, external 716K/1038K, paused 3ms+17ms
+03-31 19:33:36.016    61    63 D dalvikvm: GC_CONCURRENT freed 802K, 48% free 4409K/8455K, external 1316K/1828K, paused 6ms+64ms
+03-31 19:33:36.876    61    63 D dalvikvm: GC_CONCURRENT freed 790K, 48% free 4422K/8455K, external 1316K/1828K, paused 4ms+30ms
+03-31 19:33:37.166    38    38 D qemud   : fdhandler_accept_event: accepting on fd 9
+03-31 19:33:37.166    38    38 D qemud   : created client 0xc038 listening on fd 13
+03-31 19:33:37.166    38    38 D qemud   : client_fd_receive: attempting registration for service 'sensors'
+03-31 19:33:37.166    38    38 D qemud   : client_fd_receive:    -> received channel id 12
+03-31 19:33:37.176    38    38 D qemud   : client_registration: registration succeeded for client 12
+03-31 19:33:37.186    38    38 D qemud   : fdhandler_event: disconnect on fd 13
+03-31 19:33:37.376    61    63 D dalvikvm: GC_CONCURRENT freed 807K, 48% free 4420K/8455K, external 1316K/1828K, paused 3ms+6ms
+03-31 19:33:37.616   231   233 D dalvikvm: GC_CONCURRENT freed 357K, 54% free 2692K/5831K, external 716K/1038K, paused 2ms+3ms
+03-31 19:33:37.666   810   810 I dumpstate: done
+03-31 19:35:05.076    61   130 D SntpClient: request time failed: java.net.SocketException: Address family not supported by protocol
+03-31 19:40:05.086    61   130 D SntpClient: request time failed: java.net.SocketException: Address family not supported by protocol
+03-31 19:43:23.706   836   836 D AndroidRuntime: 
+03-31 19:43:23.706   836   836 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:43:23.706   836   836 D AndroidRuntime: CheckJNI is ON
+03-31 19:43:24.086   836   836 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:43:24.156   298   305 D dalvikvm: GC_EXPLICIT freed 128K, 54% free 2549K/5511K, external 716K/1038K, paused 33ms
+03-31 19:43:24.166    61    79 W ActivityManager: No content provider found for: 
+03-31 19:43:24.286    61    79 W ActivityManager: No content provider found for: 
+03-31 19:43:24.296    61    79 D PackageParser: Scanning package: /data/app/vmdl773975999.tmp
+03-31 19:43:24.416    61    63 D dalvikvm: GC_CONCURRENT freed 580K, 46% free 4639K/8455K, external 1316K/1828K, paused 5ms+4ms
+03-31 19:43:24.726    61    63 D dalvikvm: GC_CONCURRENT freed 630K, 44% free 4796K/8455K, external 1316K/1828K, paused 4ms+7ms
+03-31 19:43:24.886    61    79 D dalvikvm: GC_FOR_MALLOC freed 743K, 44% free 4788K/8455K, external 1316K/1828K, paused 41ms
+03-31 19:43:25.056    61    79 D dalvikvm: GC_FOR_MALLOC freed 755K, 44% free 4791K/8455K, external 1316K/1828K, paused 44ms
+03-31 19:43:25.216    61    79 D dalvikvm: GC_FOR_MALLOC freed 754K, 44% free 4796K/8455K, external 1316K/1828K, paused 43ms
+03-31 19:43:25.337    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:43:25.337    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:43:25.386    61    79 D PackageManager: Scanning package com.example
+03-31 19:43:25.386    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-2.apk to /data/app/com.example-1.apk; Retaining data and using new
+03-31 19:43:25.386    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-1.apk
+03-31 19:43:25.406    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-1.apk' ---
+03-31 19:43:26.176   845   845 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:43:26.386   845   845 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:43:26.756   845   845 D dalvikvm: DexOpt: load 216ms, verify+opt 703ms
+03-31 19:43:26.826    35    35 D installd: DexInv: --- END '/data/app/com.example-1.apk' (success) ---
+03-31 19:43:26.826    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:43:26.826    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:43:26.826    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:43:26.846    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:43:26.875    35    35 I installd: move /data/dalvik-cache/data@app@com.example-1.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:43:26.875    61    79 D PackageManager: New package installed in /data/app/com.example-1.apk
+03-31 19:43:26.976    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:43:27.026   137   137 D dalvikvm: GC_EXPLICIT freed 323K, 50% free 3000K/5959K, external 2593K/3159K, paused 43ms
+03-31 19:43:27.126    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:43:27.256   166   166 D dalvikvm: GC_EXPLICIT freed 322K, 52% free 2777K/5767K, external 716K/1038K, paused 58ms
+03-31 19:43:27.346    61    79 D dalvikvm: GC_EXPLICIT freed 484K, 43% free 4886K/8455K, external 1316K/1828K, paused 69ms
+03-31 19:43:27.346    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:43:27.460   836   836 D AndroidRuntime: Shutting down VM
+03-31 19:43:27.476   836   838 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 2ms+1ms
+03-31 19:43:27.476   836   840 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:43:28.166   851   851 D AndroidRuntime: 
+03-31 19:43:28.166   851   851 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:43:28.166   851   851 D AndroidRuntime: CheckJNI is ON
+03-31 19:43:28.626   851   851 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:43:28.716   298   305 D dalvikvm: GC_EXPLICIT freed 10K, 54% free 2549K/5511K, external 716K/1038K, paused 39ms
+03-31 19:43:28.726    61    79 W ActivityManager: No content provider found for: 
+03-31 19:43:28.885    61    79 W ActivityManager: No content provider found for: 
+03-31 19:43:28.895    61    79 D PackageParser: Scanning package: /data/app/vmdl1551381671.tmp
+03-31 19:43:29.097    61    63 D dalvikvm: GC_CONCURRENT freed 942K, 44% free 4793K/8455K, external 1316K/1828K, paused 4ms+4ms
+03-31 19:43:29.216    61    79 D dalvikvm: GC_FOR_MALLOC freed 506K, 44% free 4775K/8455K, external 1316K/1828K, paused 41ms
+03-31 19:43:29.356    61    79 D dalvikvm: GC_FOR_MALLOC freed 500K, 44% free 4777K/8455K, external 1316K/1828K, paused 43ms
+03-31 19:43:29.516    61    79 D dalvikvm: GC_FOR_MALLOC freed 498K, 44% free 4780K/8455K, external 1316K/1828K, paused 39ms
+03-31 19:43:29.656    61    79 D dalvikvm: GC_FOR_MALLOC freed 498K, 44% free 4784K/8455K, external 1316K/1828K, paused 39ms
+03-31 19:43:29.776    61    79 D dalvikvm: GC_FOR_MALLOC freed 497K, 44% free 4787K/8455K, external 1316K/1828K, paused 40ms
+03-31 19:43:29.903    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:43:29.903    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:43:29.957    61    79 D PackageManager: Scanning package com.example
+03-31 19:43:29.957    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-1.apk to /data/app/com.example-2.apk; Retaining data and using new
+03-31 19:43:29.957    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-2.apk
+03-31 19:43:29.976    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-2.apk' ---
+03-31 19:43:30.656   860   860 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:43:30.845   860   860 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:43:31.216   860   860 D dalvikvm: DexOpt: load 204ms, verify+opt 673ms
+03-31 19:43:31.276    35    35 D installd: DexInv: --- END '/data/app/com.example-2.apk' (success) ---
+03-31 19:43:31.286    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:43:31.286    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:43:31.286    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:43:31.296    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:43:31.326    35    35 I installd: move /data/dalvik-cache/data@app@com.example-2.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:43:31.326    61    79 D PackageManager: New package installed in /data/app/com.example-2.apk
+03-31 19:43:31.376    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:43:31.456    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:43:31.685    61    79 D dalvikvm: GC_EXPLICIT freed 602K, 43% free 4884K/8455K, external 1316K/1828K, paused 85ms
+03-31 19:43:31.696    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:43:31.706   851   851 D AndroidRuntime: Shutting down VM
+03-31 19:43:31.716   851   853 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 1ms+1ms
+03-31 19:43:31.716   851   855 D jdwp    : Got wake-up signal, bailing out of select
+03-31 19:43:31.716   851   855 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:43:36.626   223   223 D dalvikvm: GC_EXPLICIT freed 145K, 55% free 2599K/5703K, external 716K/1038K, paused 34ms
+03-31 19:43:41.645   298   298 D dalvikvm: GC_EXPLICIT freed 7K, 54% free 2546K/5511K, external 716K/1038K, paused 45ms
+03-31 19:43:46.646   310   310 D dalvikvm: GC_EXPLICIT freed 129K, 54% free 2542K/5511K, external 716K/1038K, paused 32ms
+03-31 19:44:57.436   871   871 D AndroidRuntime: 
+03-31 19:44:57.436   871   871 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:44:57.436   871   871 D AndroidRuntime: CheckJNI is ON
+03-31 19:44:57.816   871   871 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:44:57.896   298   305 D dalvikvm: GC_EXPLICIT freed 3K, 54% free 2548K/5511K, external 716K/1038K, paused 31ms
+03-31 19:44:57.896    61    79 W ActivityManager: No content provider found for: 
+03-31 19:44:58.015    61    79 W ActivityManager: No content provider found for: 
+03-31 19:44:58.025    61    79 D PackageParser: Scanning package: /data/app/vmdl-2009377454.tmp
+03-31 19:44:58.236    61    63 D dalvikvm: GC_CONCURRENT freed 937K, 44% free 4770K/8455K, external 1316K/1828K, paused 6ms+4ms
+03-31 19:44:58.386    61    79 D dalvikvm: GC_FOR_MALLOC freed 573K, 44% free 4778K/8455K, external 1316K/1828K, paused 44ms
+03-31 19:44:58.516    61    79 D dalvikvm: GC_FOR_MALLOC freed 556K, 44% free 4780K/8455K, external 1316K/1828K, paused 42ms
+03-31 19:44:58.636    61    79 D dalvikvm: GC_FOR_MALLOC freed 554K, 44% free 4783K/8455K, external 1316K/1828K, paused 40ms
+03-31 19:44:58.766    61    79 D dalvikvm: GC_FOR_MALLOC freed 555K, 44% free 4787K/8455K, external 1316K/1828K, paused 41ms
+03-31 19:44:58.931    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:44:58.931    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:44:58.985    61    79 D PackageManager: Scanning package com.example
+03-31 19:44:58.985    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-2.apk to /data/app/com.example-1.apk; Retaining data and using new
+03-31 19:44:58.985    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-1.apk
+03-31 19:44:59.005    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-1.apk' ---
+03-31 19:44:59.696   880   880 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:44:59.906   880   880 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:45:00.326   880   880 D dalvikvm: DexOpt: load 203ms, verify+opt 739ms
+03-31 19:45:00.386    35    35 D installd: DexInv: --- END '/data/app/com.example-1.apk' (success) ---
+03-31 19:45:00.386    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:45:00.386    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:45:00.396    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:45:00.406    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:00.436    35    35 I installd: move /data/dalvik-cache/data@app@com.example-1.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:45:00.446    61    79 D PackageManager: New package installed in /data/app/com.example-1.apk
+03-31 19:45:00.496    61    79 D dalvikvm: GC_FOR_MALLOC freed 649K, 43% free 4891K/8455K, external 1316K/1828K, paused 48ms
+03-31 19:45:00.546    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:00.596   137   137 D dalvikvm: GC_EXPLICIT freed 44K, 50% free 2982K/5959K, external 2593K/3159K, paused 43ms
+03-31 19:45:00.656   166   166 D dalvikvm: GC_EXPLICIT freed 159K, 53% free 2762K/5767K, external 716K/1038K, paused 55ms
+03-31 19:45:00.706    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:45:00.925    61    79 D dalvikvm: GC_EXPLICIT freed 714K, 48% free 4412K/8455K, external 1316K/1828K, paused 62ms
+03-31 19:45:00.945    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:45:00.945   871   871 D AndroidRuntime: Shutting down VM
+03-31 19:45:00.955   871   873 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 0ms+1ms
+03-31 19:45:00.955   871   875 D jdwp    : Got wake-up signal, bailing out of select
+03-31 19:45:00.955   871   875 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:45:01.606   886   886 D AndroidRuntime: 
+03-31 19:45:01.606   886   886 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:45:01.606   886   886 D AndroidRuntime: CheckJNI is ON
+03-31 19:45:02.056   886   886 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:45:02.156   298   308 D dalvikvm: GC_EXPLICIT freed 9K, 54% free 2549K/5511K, external 716K/1038K, paused 50ms
+03-31 19:45:02.176    61    79 W ActivityManager: No content provider found for: 
+03-31 19:45:02.326    61    79 W ActivityManager: No content provider found for: 
+03-31 19:45:02.336    61    79 D PackageParser: Scanning package: /data/app/vmdl1137868548.tmp
+03-31 19:45:02.496    61    63 D dalvikvm: GC_CONCURRENT freed 369K, 44% free 4743K/8455K, external 1316K/1828K, paused 5ms+4ms
+03-31 19:45:02.656    61    79 D dalvikvm: GC_FOR_MALLOC freed 689K, 44% free 4780K/8455K, external 1316K/1828K, paused 41ms
+03-31 19:45:02.796    61    79 D dalvikvm: GC_FOR_MALLOC freed 669K, 44% free 4783K/8455K, external 1316K/1828K, paused 42ms
+03-31 19:45:02.936    61    79 D dalvikvm: GC_FOR_MALLOC freed 667K, 44% free 4787K/8455K, external 1316K/1828K, paused 42ms
+03-31 19:45:03.066    61    79 D dalvikvm: GC_FOR_MALLOC freed 669K, 44% free 4792K/8455K, external 1316K/1828K, paused 41ms
+03-31 19:45:03.176    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:45:03.176    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:03.226    61    79 D PackageManager: Scanning package com.example
+03-31 19:45:03.226    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-1.apk to /data/app/com.example-2.apk; Retaining data and using new
+03-31 19:45:03.226    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-2.apk
+03-31 19:45:03.246    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-2.apk' ---
+03-31 19:45:03.966   895   895 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:45:04.146   895   895 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:45:04.496   895   895 D dalvikvm: DexOpt: load 229ms, verify+opt 651ms
+03-31 19:45:04.566    35    35 D installd: DexInv: --- END '/data/app/com.example-2.apk' (success) ---
+03-31 19:45:04.566    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:45:04.566    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:45:04.566    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:45:04.586    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:04.616    35    35 I installd: move /data/dalvik-cache/data@app@com.example-2.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:45:04.616    61    79 D PackageManager: New package installed in /data/app/com.example-2.apk
+03-31 19:45:04.666    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:04.726    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:45:04.936    61    79 D dalvikvm: GC_EXPLICIT freed 501K, 43% free 4882K/8455K, external 1316K/1828K, paused 74ms
+03-31 19:45:04.956    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:45:04.956   886   886 D AndroidRuntime: Shutting down VM
+03-31 19:45:04.966   886   888 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 1ms+0ms
+03-31 19:45:04.966   886   890 D jdwp    : Got wake-up signal, bailing out of select
+03-31 19:45:04.966   886   890 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:45:05.096    61   130 D SntpClient: request time failed: java.net.SocketException: Address family not supported by protocol
+03-31 19:45:09.896   223   223 D dalvikvm: GC_EXPLICIT freed 19K, 55% free 2598K/5703K, external 716K/1038K, paused 32ms
+03-31 19:45:14.906   298   298 D dalvikvm: GC_EXPLICIT freed 7K, 54% free 2547K/5511K, external 716K/1038K, paused 45ms
+03-31 19:45:19.926   310   310 D dalvikvm: GC_EXPLICIT freed 6K, 54% free 2540K/5511K, external 716K/1038K, paused 44ms
+03-31 19:45:25.106   906   906 D AndroidRuntime: 
+03-31 19:45:25.106   906   906 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:45:25.106   906   906 D AndroidRuntime: CheckJNI is ON
+03-31 19:45:25.445   906   906 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:45:25.516   298   308 D dalvikvm: GC_EXPLICIT freed 4K, 54% free 2547K/5511K, external 716K/1038K, paused 33ms
+03-31 19:45:25.516    61    79 W ActivityManager: No content provider found for: 
+03-31 19:45:25.636    61    79 W ActivityManager: No content provider found for: 
+03-31 19:45:25.646    61    79 D PackageParser: Scanning package: /data/app/vmdl1734122074.tmp
+03-31 19:45:25.886    61    63 D dalvikvm: GC_CONCURRENT freed 938K, 44% free 4816K/8455K, external 1316K/1828K, paused 5ms+6ms
+03-31 19:45:26.006    61    79 D dalvikvm: GC_FOR_MALLOC freed 567K, 44% free 4776K/8455K, external 1316K/1828K, paused 43ms
+03-31 19:45:26.136    61    79 D dalvikvm: GC_FOR_MALLOC freed 556K, 44% free 4778K/8455K, external 1316K/1828K, paused 39ms
+03-31 19:45:26.246    61    79 D dalvikvm: GC_FOR_MALLOC freed 554K, 44% free 4781K/8455K, external 1316K/1828K, paused 39ms
+03-31 19:45:26.356    61    79 D dalvikvm: GC_FOR_MALLOC freed 555K, 44% free 4785K/8455K, external 1316K/1828K, paused 39ms
+03-31 19:45:26.528    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:45:26.528    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:26.586    61    79 D PackageManager: Scanning package com.example
+03-31 19:45:26.586    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-2.apk to /data/app/com.example-1.apk; Retaining data and using new
+03-31 19:45:26.586    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-1.apk
+03-31 19:45:26.606    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-1.apk' ---
+03-31 19:45:27.276   915   915 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:45:27.466   915   915 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:45:27.846   915   915 D dalvikvm: DexOpt: load 196ms, verify+opt 671ms
+03-31 19:45:27.896    35    35 D installd: DexInv: --- END '/data/app/com.example-1.apk' (success) ---
+03-31 19:45:27.906    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:45:27.906    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-2.apk to /data/app/com.example-1.apk
+03-31 19:45:27.906    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:45:27.916    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:27.966    35    35 I installd: move /data/dalvik-cache/data@app@com.example-1.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:45:27.966    61    79 D PackageManager: New package installed in /data/app/com.example-1.apk
+03-31 19:45:28.006    61    79 D dalvikvm: GC_FOR_MALLOC freed 645K, 43% free 4888K/8455K, external 1316K/1828K, paused 40ms
+03-31 19:45:28.059    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:28.106   137   137 D dalvikvm: GC_EXPLICIT freed 38K, 50% free 3030K/5959K, external 2593K/3159K, paused 41ms
+03-31 19:45:28.176   166   166 D dalvikvm: GC_EXPLICIT freed 143K, 53% free 2762K/5767K, external 716K/1038K, paused 56ms
+03-31 19:45:28.216    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:45:28.396    61    79 D dalvikvm: GC_EXPLICIT freed 714K, 48% free 4409K/8455K, external 1316K/1828K, paused 62ms
+03-31 19:45:28.405    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:45:28.416   906   906 D AndroidRuntime: Shutting down VM
+03-31 19:45:28.425   906   908 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 1ms+0ms
+03-31 19:45:28.425   906   910 D jdwp    : Got wake-up signal, bailing out of select
+03-31 19:45:28.425   906   910 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:45:29.056   921   921 D AndroidRuntime: 
+03-31 19:45:29.056   921   921 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:45:29.056   921   921 D AndroidRuntime: CheckJNI is ON
+03-31 19:45:29.456   921   921 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+03-31 19:45:29.546   298   307 D dalvikvm: GC_EXPLICIT freed 9K, 54% free 2549K/5511K, external 716K/1038K, paused 40ms
+03-31 19:45:29.566    61    79 W ActivityManager: No content provider found for: 
+03-31 19:45:29.716    61    79 W ActivityManager: No content provider found for: 
+03-31 19:45:29.726    61    79 D PackageParser: Scanning package: /data/app/vmdl197218784.tmp
+03-31 19:45:29.916    61    63 D dalvikvm: GC_CONCURRENT freed 364K, 44% free 4756K/8455K, external 1316K/1828K, paused 5ms+4ms
+03-31 19:45:30.076    61    79 D dalvikvm: GC_FOR_MALLOC freed 719K, 44% free 4779K/8455K, external 1316K/1828K, paused 39ms
+03-31 19:45:30.206    61    79 D dalvikvm: GC_FOR_MALLOC freed 707K, 44% free 4783K/8455K, external 1316K/1828K, paused 38ms
+03-31 19:45:30.345    61    79 D dalvikvm: GC_FOR_MALLOC freed 716K, 44% free 4788K/8455K, external 1316K/1828K, paused 38ms
+03-31 19:45:30.529    61    79 I PackageManager: Removing non-system package:com.example
+03-31 19:45:30.529    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:30.576    61    79 D PackageManager: Scanning package com.example
+03-31 19:45:30.576    61    79 I PackageManager: Package com.example codePath changed from /data/app/com.example-1.apk to /data/app/com.example-2.apk; Retaining data and using new
+03-31 19:45:30.576    61    79 I PackageManager: Unpacking native libraries for /data/app/com.example-2.apk
+03-31 19:45:30.686    61    63 D dalvikvm: GC_CONCURRENT freed 742K, 43% free 4871K/8455K, external 1316K/1828K, paused 5ms+9ms
+03-31 19:45:30.706    35    35 D installd: DexInv: --- BEGIN '/data/app/com.example-2.apk' ---
+03-31 19:45:31.416   930   930 D dalvikvm: DexOpt: couldn't find field Landroid/graphics/BitmapFactory$Options;.inMutable
+03-31 19:45:31.636   930   930 D dalvikvm: DexOpt: couldn't find static field
+03-31 19:45:32.136   930   930 D dalvikvm: DexOpt: load 231ms, verify+opt 837ms
+03-31 19:45:32.196    35    35 D installd: DexInv: --- END '/data/app/com.example-2.apk' (success) ---
+03-31 19:45:32.206    61    79 W PackageManager: Code path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:45:32.206    61    79 W PackageManager: Resource path for pkg : com.example changing from /data/app/com.example-1.apk to /data/app/com.example-2.apk
+03-31 19:45:32.206    61    79 D PackageManager:   Activities: com.example.MainActivity
+03-31 19:45:32.216    61    74 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:32.246    35    35 I installd: move /data/dalvik-cache/data@app@com.example-2.apk@classes.dex -> /data/dalvik-cache/data@app@com.example-2.apk@classes.dex
+03-31 19:45:32.246    61    79 D PackageManager: New package installed in /data/app/com.example-2.apk
+03-31 19:45:32.295    61    79 I ActivityManager: Force stopping package com.example uid=10034
+03-31 19:45:32.366    61    72 W RecognitionManagerService: no available voice recognition services found
+03-31 19:45:32.526    61    79 D dalvikvm: GC_EXPLICIT freed 725K, 47% free 4483K/8455K, external 1316K/1828K, paused 60ms
+03-31 19:45:32.556    35    35 I installd: unlink /data/dalvik-cache/data@app@com.example-1.apk@classes.dex
+03-31 19:45:32.556   921   921 D AndroidRuntime: Shutting down VM
+03-31 19:45:32.566   921   923 D dalvikvm: GC_CONCURRENT freed 101K, 72% free 295K/1024K, external 0K/0K, paused 1ms+0ms
+03-31 19:45:32.566   921   925 D jdwp    : Got wake-up signal, bailing out of select
+03-31 19:45:32.566   921   925 D dalvikvm: Debugger has detached; object registry had 1 entries
+03-31 19:46:33.416   936   936 D AndroidRuntime: 
+03-31 19:46:33.416   936   936 D AndroidRuntime: >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-31 19:46:33.416   936   936 D AndroidRuntime: CheckJNI is ON
+03-31 19:46:33.776   936   936 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+03-31 19:46:34.456    61    67 I ActivityManager: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example/.MainActivity } from pid 936
+03-31 19:46:34.526    61   177 I ActivityManager: Start proc com.example for activity com.example/.MainActivity: pid=945 uid=10034 gids={}
+03-31 19:46:35.466   945   945 D AndroidRuntime: Shutting down VM
+03-31 19:46:35.466   945   945 W dalvikvm: threadid=1: thread exiting with uncaught exception (group=0x40015560)
+03-31 19:46:35.476   945   945 E AndroidRuntime: FATAL EXCEPTION: main
+03-31 19:46:35.476   945   945 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example/com.example.MainActivity}: java.lang.NullPointerException
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1647)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:123)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:3683)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at java.lang.reflect.Method.invokeNative(Native Method)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:507)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at dalvik.system.NativeStart.main(Native Method)
+03-31 19:46:35.476   945   945 E AndroidRuntime: Caused by: java.lang.NullPointerException
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at com.android.internal.os.LoggingPrintStream.println(LoggingPrintStream.java:298)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at com.example.MainActivity.onCreate(MainActivity.java:21)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+03-31 19:46:35.476   945   945 E AndroidRuntime: 	... 11 more
+03-31 19:46:35.486    61    67 W ActivityManager: Force-killing crashed app com.example at watcher's request
+03-31 19:46:35.486    61    67 I Process : Sending signal. PID: 945 SIG: 9
+03-31 19:46:35.496    61   176 I ActivityManager: Process com.example (pid 945) has died.
+03-31 19:46:35.616    61    68 W InputManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40723ed0
