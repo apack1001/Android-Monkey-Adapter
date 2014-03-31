@@ -60,7 +60,7 @@ public class Main {
 			
 			// Wait until the monkey series completed!
 			for (MonkeyTestSeries series: serieslist)
-				series.join();
+				series.mExecutor.join();
 			
 		} catch (Throwable e) {
 			e.printStackTrace();

@@ -24,7 +24,7 @@ public class MonkeyTestSeries {
     long mSeriesFinish = 0;
     boolean mIsSeriesStarted = false;
     boolean mIsSeriesFinished = false;
-    MonkeyTestSeriesExecutorThread mExecutor;
+    public MonkeyTestSeriesExecutor mExecutor;
     MonkeyTest mCurrentTest;
 
     public MonkeyTestSeries(
@@ -70,7 +70,7 @@ public class MonkeyTestSeries {
         if (mExecutor != null) {
             return;
         }
-        mExecutor = new MonkeyTestSeriesExecutorThread(mSeriesId);
+        mExecutor = new MonkeyTestSeriesExecutor(mSeriesId);
         mExecutor.start();
         mIsSeriesStarted = true;
     }
@@ -82,25 +82,14 @@ public class MonkeyTestSeries {
         mExecutor.interrupt();
         mCurrentTest.interrupt();
     }
-    
-    public void join() {
-        if (mExecutor == null || mCurrentTest == null) {
-            return;
-        }
-        try {
-			mExecutor.join();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-    }
 
     public MonkeyTestDevice getDevice() {
         return mDevice;
     }
 
-    public class MonkeyTestSeriesExecutorThread extends Thread {
+    public class MonkeyTestSeriesExecutor extends Thread {
 
-        public MonkeyTestSeriesExecutorThread(String name) {
+        public MonkeyTestSeriesExecutor(String name) {
             super(name);
         }
 

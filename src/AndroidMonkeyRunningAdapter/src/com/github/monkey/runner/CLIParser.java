@@ -58,7 +58,10 @@ public class CLIParser {
 			this.deivcesId = cmd.getOptionValues("d");
 		}
 		if (cmd.hasOption("r")) {
-			this.unlockCmd = cmd.getOptionValue("r");
+			this.user = cmd.getOptionValue("r");
+		}
+		if (cmd.hasOption("u")) {
+			this.unlockCmd = cmd.getOptionValue("u");
 		}
 		if (cmd.hasOption("v")) {
 			this.pkgVersion = cmd.getOptionValue("v");
@@ -67,7 +70,7 @@ public class CLIParser {
 			this.pkgName = cmd.getOptionValue("n");
 		}
 		if (cmd.hasOption("p")) {
-			this.pkgName = cmd.getOptionValue("p");
+			this.pkgPath = cmd.getOptionValue("p");
 		}
 		if (cmd.hasOption("t")) {
 			this.seriesDuration = cmd.getOptionValue("t");
