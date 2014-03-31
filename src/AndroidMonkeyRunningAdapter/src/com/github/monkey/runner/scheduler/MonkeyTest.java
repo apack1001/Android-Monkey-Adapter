@@ -23,7 +23,6 @@ import com.github.monkey.runner.helper.LocationHelper.FileLocationException;
 /**
  * Represents a item of monkey test.
  * 
- * @author baowanyu
  */
 public class MonkeyTest {
 
