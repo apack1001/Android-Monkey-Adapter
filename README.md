@@ -1,14 +1,17 @@
 AndroidMonkeyAdapter
 ====================
+Manage monkey jobs and analyze all the running logs that will determine  which kind of abnormality a crash belongs to
 Introduction
 --------------------
 
 - Install Android application, run Monkey testing job, analyze and classify crash automatically
+- Dalvik Crash, ANR, Native Crash supported
+- Dulplicated abnormality classification
 - HTML-format report supported
 - Multiple platform supported(Windows, Mac, Linux)
 - Jenkins platform supported 
 
-Usage
+Manual
 --------------------
 Usage of Android Monkey Adapter runner
 ``` sh
@@ -48,9 +51,20 @@ options are as below:
                                       directoy.
 ```
 
-example
----------------------
+Example
 ``` sh
 java -jar monkey-adapter-runner.jar --device-id 45071c540c04197 --user-name xxxxxx --pkg-path ./example.apk --pkg-name com.example --pkg-version 3.0 --single-duration 8 --series-duration 8
 java -jar monkey-adapter-analyzer.jar --workspaces ./logs/ --monkey-log-file-name monkey_log.txt --logcat-log-file-name logcat_log.txt --traces-log-file-name traces_log.txt --bugreport-log-file-name bugreport_log.txt --properties-file-name properties.txt --duration 8 --package-name com.example
+```
+
+Get Started!
+---------------------
+Here is a easier example of using this tool which encapsulates the jarfile operations.
+``` sh
+git clone https://github.com/apack1001/Android-Monkey-Adapter/
+cd Android-Monkey-Adapter/dist/
+# executing encapsulated script
+sh run_monkey_mac.sh <device id> <user> <apk file path> <apk package name> <version number> <duration>
+# example: sh run_monkey_mac.sh emulator-5554 alex example.apk com.example 1.0 8
+
 ```
