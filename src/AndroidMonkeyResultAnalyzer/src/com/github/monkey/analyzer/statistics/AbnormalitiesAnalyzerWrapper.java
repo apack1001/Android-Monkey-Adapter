@@ -137,7 +137,7 @@ final public class AbnormalitiesAnalyzerWrapper {
 	public static double getAverage(
 			ArrayList<Abnormality> knownAbnormalities,
 			ArrayList<Abnormality> unknownAbnormalities,
-			int monkeyTestDuration) {
+			double monkeyTestDuration) {
 		if (monkeyTestDuration <= 0)
 			throw new IllegalArgumentException("Some arguments maybe wrong!");
 

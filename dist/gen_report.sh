@@ -11,7 +11,7 @@ SIG_DURA=$6
 SER_DURA=$6
 if [ -d "./logs/" ]; then
     echo "./logs/ exists! remove expired folder"
-    rm -r ./logs/
+#    rm -r ./logs/
 fi
 # 2. running command
 #java -jar monkey-adapter-runner.jar --device-id $DEVICE_ID --user-name $UNAME  --pkg-path $APK_FILE --pkg-name $PKG_NAME --pkg-version $PKG_VERSION --single-duration $SIG_DURA --series-duration $SER_DURA

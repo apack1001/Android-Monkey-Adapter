@@ -207,7 +207,7 @@ public class MonkeyTest {
                 }
                 mMonkeyLogOutputReceiver.cancel();
                 mLogcatLogOutputReceiver.cancel();
-                log(String.format("Monkey test continues %s seconds",
+                log(String.format("Monkey test lasts for %s ms",
                         mActualDuration));
 
                 Map<String, String> props = saveProperties();

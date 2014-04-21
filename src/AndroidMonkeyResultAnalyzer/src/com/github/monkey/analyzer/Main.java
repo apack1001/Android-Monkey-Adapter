@@ -40,9 +40,9 @@ public class Main {
 					.getUnknownAbnormalities();
 			
 			final int count = client.getAbnormalitiesDirectoriesCount(dir);
-			int duration = 0;
+			double duration = 0;
 			try {
-				duration = Integer.parseInt(cli.duration);
+				duration = Double.parseDouble(cli.duration);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

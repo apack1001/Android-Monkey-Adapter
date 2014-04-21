@@ -153,7 +153,8 @@ public class MonkeyTestSeries {
                     mCurrentTest.interrupt();
                 }
                 mIsSeriesFinished = true;
-                mDevice.reboot();
+                // disable reboot
+                //mDevice.reboot();
                 log("Monkey test series finished.");
             }
         }

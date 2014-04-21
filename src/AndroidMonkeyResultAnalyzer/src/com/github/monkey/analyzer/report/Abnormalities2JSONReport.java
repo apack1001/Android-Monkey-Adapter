@@ -39,7 +39,7 @@ final public class Abnormalities2JSONReport {
 			ArrayList<Abnormality> knownAbnormalities,
 			ArrayList<Abnormality> unknownAbnormalities,
 			HashMap<String, String> testingInfo, 
-			final int duration,
+			final double duration,
 			final int abnormalitiesCount) {
 		// 0. handle input data
 		if ((knownAbnormalities == null || knownAbnormalities.size() == 0)
@@ -86,7 +86,7 @@ final public class Abnormalities2JSONReport {
 	private static void fillSummary(
 			final ArrayList<Abnormality> knownAbnormalities,
 			final ArrayList<Abnormality> unknownAbnormalities,
-			final int monkeyTestDuration,
+			final double monkeyTestDuration,
 			final HashMap<String, String> testingInfo,
 			final JSONObject reportJSON) {
 		int anrCount = AbnormalitiesAnalyzerWrapper.getCount(
